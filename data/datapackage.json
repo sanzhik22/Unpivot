@@ -1,0 +1,65 @@
+{
+  "bytes": 180,
+  "count_of_rows": 9,
+  "descriptor": "Demo data package which makes project look great ",
+  "hash": "0cf89a406cfd7e114a28fe8a6629c7db",
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "path": "https://github.com/sanzhik22",
+      "title": "Sanzhar's data v1.0"
+    }
+  ],
+  "name": "Sanzhar's data",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 180,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "e441d9b8aaeaa18f94048920ba755cce",
+      "name": "data",
+      "path": "data.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "place",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "year",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "value",
+            "type": "integer"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sanzhar's Data",
+      "path": "https://github.com/sanzhik22",
+      "title": "Unpivoting data"
+    }
+  ],
+  "title": "Pivot unpivot"
+}
