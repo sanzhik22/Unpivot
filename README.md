@@ -24,6 +24,8 @@ Output data will be stored in result.csv file
 
 Second sollution:
 ```commandline
-python dataflow.py
+python By_dataflow.py
 ```
-Output data will be placed in unpivot_data.csv directory in res_1.csv fil
+Output data will be placed in data.csv directory in data.csv 
+
+Metadata will be stored in same folder in datapackge.json file
